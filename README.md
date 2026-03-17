@@ -1,4 +1,4 @@
-# NeosSpotifyStatus
+# SpotifyStatus
 
 Shows Spotify status inside Resonite using WebSocket. Also allows for controlling playback (Spotify Premium only), either from just the owner or anyone.
 Album, Title and Artists are clickable with hyperlinks to open Spotify to the respective pages. Songs can be queued by pasting or dropping their URIs onto the panel.
@@ -8,11 +8,11 @@ A User's Audio Stream can be dropped in as well, and will provide localized volu
 
 Make sure you have installed the [.NET 10.0 Runtime](https://dotnet.microsoft.com/download)!
 
-1. Get the latest release of the server [here](https://github.com/Banane9/NeosSpotifyStatus/releases) and extract it somewhere.
+1. Get the latest release of the server [here](https://github.com/0Fox/SpotifyStatus/releases/latest) and extract it somewhere.
 2. Create a Spotify application on the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
 3. Go to the settings of your Spotify application and add ``http://127.0.0.1:5000/callback`` as a Redirect URI.
-4. Put your application's Client ID and Client Secret into the config.ini file of the server program.
-5. Run the program.
+4. Put your application's **Client ID** and **Client Secret** into the config.ini file of the server program.
+5. Run `SpotifyStatus.Standalone.exe`.
 6. Sign in with your Spotify account in the browser window that opened and grant the application access.
 
 ## Resonite Setup
@@ -30,5 +30,5 @@ To actually be able to use this, you will need to get the item from my public fo
 
 ## Attributions
 
-Using icons from flaticon.com by Freepik, Pixel Perfect and Kirashastry.
+Using icons from [Flaticon](https://flaticon.com) by Freepik, Pixel Perfect and Kirashastry.
 Modified by me for use as white on transparent masks and animations.
